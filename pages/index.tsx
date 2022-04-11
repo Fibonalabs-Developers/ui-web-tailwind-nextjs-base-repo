@@ -1,6 +1,6 @@
 import { useDummyList } from '@/src/api/demo'
-import useTranslation from 'next-translate/useTranslation'
 import { hasPermissions, PermissionTypes } from '@/src/utils/hasPermissions'
+import useTranslation from 'next-translate/useTranslation'
 const Home = () => {
     const { t } = useTranslation()
     const { data } = useDummyList()
